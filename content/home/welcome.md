@@ -17,4 +17,4 @@ advanced:
   css_class:
 ---
 
-The Wowchemy Research Group has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+The HausaNLP Research Group is a research group for Hausa Natural Language Processing. The group is part of BUKNLP research group at faculty of computer science and information technology, Bayero University, Kano.
