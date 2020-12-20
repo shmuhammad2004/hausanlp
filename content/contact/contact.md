@@ -9,24 +9,38 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: Contact
-subtitle:
+# title : "Join Us?"
+subtitle : We are always open for collaboration with motivated researchers and students with passion in our relevant research interest."   		
+
 
 content:
   # Automatically link email and phone or display as text?
   autolink: true
   
+
   # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
+#   0: Disable email form
+#   1: Netlify (requires that the site is hosted by Netlify)
+#   2: formspree.io
+email_form : 0
+  
+  # Email form provider
+  #form:
+    #provider: netlify
+    #formspree:
+     # id:
+    #netlify:
       # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+      #captcha: false
 
 design:
   columns: '1'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+We are always open for collaboration with motivated researchers and students with passion in our relevant research interest.
+
+Reach out to us and we will be happy to respond.
+
+
+
+-----

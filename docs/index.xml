@@ -5,27 +5,12 @@
     <link>https://hausanlp.github.io/</link>
       <atom:link href="https://hausanlp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>HausaNLP Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© HausaNLP Research Group</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© HausaNLP Research Group</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hausanlp.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>HausaNLP Research Group</title>
       <link>https://hausanlp.github.io/</link>
     </image>
-    
-    <item>
-      <title>Example Event</title>
-      <link>https://hausanlp.github.io/event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://hausanlp.github.io/event/example/</guid>
-      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Bello Shehu Bello Depended his PhD Thesis</title>
@@ -45,19 +30,163 @@
     </item>
     
     <item>
+      <title>Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages</title>
+      <link>https://hausanlp.github.io/publication/nekoto-2020-aa/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/nekoto-2020-aa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Self-Training to Improve Back-Translation in Low Resource Neural Machine Translation</title>
+      <link>https://hausanlp.github.io/publication/abdulmumin-2020-aa/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/abdulmumin-2020-aa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A survey on machine learning techniques in movie revenue prediction</title>
+      <link>https://hausanlp.github.io/publication/ahmad-2020-survey/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/ahmad-2020-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Sentiment Classification: A Novel Approach for Utilizing Social Media Data for Business Intelligence</title>
+      <link>https://hausanlp.github.io/publication/ahmadbeyond/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/ahmadbeyond/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incremental Approach for Automatic Generation of Domain-Specific Sentiment Lexicon</title>
+      <link>https://hausanlp.github.io/publication/muhammad-2020-incremental/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/muhammad-2020-incremental/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movie Revenue Prediction Based on Purchase Intention Mining Using YouTube Trailer Reviews</title>
+      <link>https://hausanlp.github.io/publication/ahmad-2020-movie/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/ahmad-2020-movie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages</title>
+      <link>https://hausanlp.github.io/publication/nekoto-2020-participatory/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/nekoto-2020-participatory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequel movie revenue prediction model based on sentiment analysis</title>
+      <link>https://hausanlp.github.io/publication/ahmad-2020-sequel/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/ahmad-2020-sequel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tag-less Back-Translation</title>
+      <link>https://hausanlp.github.io/publication/abdulmumin-2019-ab/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/abdulmumin-2019-ab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hauWE: Hausa Words Embedding for Natural Language Processing</title>
+      <link>https://hausanlp.github.io/publication/abdulmumin-2019-aa/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/abdulmumin-2019-aa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An example preprint / working paper</title>
-      <link>https://hausanlp.github.io/publication/preprint/</link>
+      <link>https://hausanlp.github.io/publications/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://hausanlp.github.io/publication/preprint/</guid>
+      <guid>https://hausanlp.github.io/publications/preprint/</guid>
       <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>A review of feature selection in sentiment analysis using information gain and domain specific ontology</title>
+      <link>https://hausanlp.github.io/publication/ahmad-2019-review/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/ahmad-2019-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An overview of sentiment analysis approaches</title>
+      <link>https://hausanlp.github.io/publication/muhammad-2019-overview/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/muhammad-2019-overview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing the Behaviour of Twitter Bots in Post Brexit Politics</title>
+      <link>https://hausanlp.github.io/publication/bello-2019-analyzing/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/bello-2019-analyzing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CURRENT TRENDS AND RESEARCH DIRECTIONS IN THE DICTIONARY-BASED APPROACH FOR SENTIMENT LEXICON GENERATION: A SURVEY</title>
+      <link>https://hausanlp.github.io/publication/osman-2019-current/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/osman-2019-current/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lexical analysis of automated accounts on Twitter</title>
+      <link>https://hausanlp.github.io/publication/inuwa-2018-lexical/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/inuwa-2018-lexical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lexical analysis of automated accounts on Twitter</title>
+      <link>https://hausanlp.github.io/publication/inuwa-dutse-2018-aa/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/inuwa-dutse-2018-aa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reverse engineering the behaviour of twitter bots</title>
+      <link>https://hausanlp.github.io/publication/bello-2018-reverse/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/bello-2018-reverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effect of engagement intensity and lexical richness in identifying bot accounts on twitter</title>
+      <link>https://hausanlp.github.io/publication/inuwa-2018-effect/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/inuwa-2018-effect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An example journal article</title>
-      <link>https://hausanlp.github.io/publication/journal-article/</link>
+      <link>https://hausanlp.github.io/publications/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://hausanlp.github.io/publication/journal-article/</guid>
+      <guid>https://hausanlp.github.io/publications/journal-article/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -68,10 +197,23 @@
     </item>
     
     <item>
+      <title>Text normalization algorithm for facebook chats in hausa language</title>
+      <link>https://hausanlp.github.io/publication/maitama-2014-text/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/publication/maitama-2014-text/</guid>
+      <description>&lt;p&gt;The rapid increase in using non-standard words (NSWs) in communication through the social media is causing difficulties in understanding contents of the text messages. In addition, it affects the performance of several natural language processing (NLP) task such as machine translation, information retrievals, summarization and etc. In this study, we present an automatic text normalization system on Facebook chatting based on Hausa language. The proposed algorithm manually developed dictionary that employ normalization of each non-standard word with its equivalent standard word. This is accomplished through modification of the technique employed by [1] to fit Hausa NSWs&#39; formation. It was found that our proposed algorithm was able to normalized Hausa NSWs with an accuracy of 100%The results of this research can facilitate comprehensive communication via Facebook using Hausa language.&lt;/p&gt;
+&lt;style&gt;
+body {
+text-align: justify}
+&lt;/style&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An example conference paper</title>
-      <link>https://hausanlp.github.io/publication/conference-paper/</link>
+      <link>https://hausanlp.github.io/publications/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://hausanlp.github.io/publication/conference-paper/</guid>
+      <guid>https://hausanlp.github.io/publications/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -95,6 +237,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hausanlp.github.io/people/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Weekly Meeting</title>
+      <link>https://hausanlp.github.io/event/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/event/example/</guid>
+      <description>&lt;!---
+#Slides can be added in a few ways:
+
+#- **Create** slides using Wowchemy&#39;s #[*Slides*](https://wowchemy.com/docs/managing-content/#create-sli#des) feature and link using `slides` parameter in the front #matter of the talk file
+#- **Upload** an existing slide deck to `static/` and link using #`url_slides` parameter in the front matter of the talk file
+#- **Embed** your slides (e.g. Google Slides) or presentation #video on this page using #[shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+#Further event details, including page elements such as image #galleries, can be added to the body of this page.
+--&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>
