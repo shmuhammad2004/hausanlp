@@ -2,7 +2,7 @@
 title: Weekly Meeting
 
 # This page represents an event/talk.
-type: talk
+type: event
 
 event: Weekly Meeting on Sunday  
 event_url: https://meet.google.com/thf-vxwk-rdj
@@ -22,14 +22,15 @@ summary: In this weekly session, we meet and discuss our progress and any intere
 #date_end: "2030-06-01T15:00:00Z"
 #all_day: false
 
+
 # Schedule page publish date (NOT talk date).
 #publishDate: "2017-01-01T00:00:00Z"
 
-authors: []
-tags: []
+#authors: []
+#tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+#featured: false
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
@@ -53,6 +54,7 @@ url_video: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 #projects:
+
 ---
 
 
