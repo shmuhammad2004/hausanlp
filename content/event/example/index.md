@@ -2,13 +2,13 @@
 title: Weekly Meeting
 
 # This page represents an event/talk.
-type: event
+type: talk
 
 event: Weekly Meeting on Sunday  
 event_url: https://meet.google.com/thf-vxwk-rdj
 
 
-location: Google Meet (Online) 9:00AM GMT+1
+location: Google Meet (Online) 
 
 
 summary: In this weekly session, we meet and discuss our progress and any interesting idea 
@@ -18,7 +18,7 @@ summary: In this weekly session, we meet and discuss our progress and any intere
 #   End time can optionally be hidden by prefixing the line with `#`.
 
 #date: "every sunday at 9:00AM Nigerian Time (GMT+1)"
-#date: "2020-12-01T13:00:00Z"
+date: "2020-12-27T09:00:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 #all_day: false
 

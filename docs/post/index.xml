@@ -5,7 +5,7 @@
     <link>https://hausanlp.github.io/post/</link>
       <atom:link href="https://hausanlp.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© HausaNLP Research Group</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© HausaNLP Research Group</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hausanlp.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Latest News</title>
@@ -13,20 +13,20 @@
     </image>
     
     <item>
-      <title>Bello Shehu Bello Depended his PhD Thesis</title>
-      <link>https://hausanlp.github.io/post/20-12-02-icml-best-paper/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://hausanlp.github.io/post/20-12-02-icml-best-paper/</guid>
-      <description>&lt;p&gt;Congratulations to Dr Bello Shehu Bello who succefuly depended his PhD Thesis on the title.&lt;/p&gt;
-</description>
+      <title>Ibrahim Ahmad Saeed Depended his PhD Thesis</title>
+      <link>https://hausanlp.github.io/post/20-12-01-wowchemy-prize/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/post/20-12-01-wowchemy-prize/</guid>
+      <description>&lt;p&gt;Congratulations to Dr Ibrahim Ahmad Saeed for successful PhD defence.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Ibrahim Ahmad Saeed Depended his PhD</title>
-      <link>https://hausanlp.github.io/post/20-12-01-wowchemy-prize/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://hausanlp.github.io/post/20-12-01-wowchemy-prize/</guid>
-      <description>&lt;p&gt;Congratulations to Dr Ibrahim Ahmad Saeed for succeful PhD defense at University of &amp;hellip;&lt;/p&gt;</description>
+      <title>Bello Shehu Bello Depended his PhD Thesis</title>
+      <link>https://hausanlp.github.io/post/20-12-02-icml-best-paper/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://hausanlp.github.io/post/20-12-02-icml-best-paper/</guid>
+      <description>&lt;p&gt;Congratulations to Dr Ibrahim Ahmad Saeed for successful PhD defence.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

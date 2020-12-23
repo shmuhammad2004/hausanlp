@@ -1,6 +1,6 @@
 ---
 title: Bello Shehu Bello Depended his PhD Thesis
-date: 2020-12-02
+date: 2019-12-02
 ---
 
-Congratulations to Dr Bello Shehu Bello who succefuly depended his PhD Thesis on the title.
+Congratulations to Dr Ibrahim Ahmad Saeed for successful PhD defence.

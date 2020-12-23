@@ -6,7 +6,7 @@
 widget: hero  # See https://wowchemy.com/docs/page-builder/
 headless: true  # This file represents a page section.
 weight: 10  # Order that this section will appear.
-title: "HausaNLP Research Group"
+title: "HausaNLP"
 subtitle: ""
 hero_media: welcome.jpg
 design:
@@ -17,4 +17,10 @@ advanced:
   css_class:
 ---
 
-The HausaNLP Research Group is a research group for Hausa Natural Language Processing. The group is part of BUKNLP research group at faculty of computer science and information technology, Bayero University, Kano.
+
+HausaNLP is a research group for Hausa Natural Language Processing. The group is part of [BUKNLP research group](https://buknlp.github.io/researchgroup/) and other researchers with interest in HausaNLP. If you are a student or researcher and wants to join us to advance research in Hausa natural language processing, we are happy to collaborate.
+
+<style>
+body {
+text-align: justify;}
+</style>

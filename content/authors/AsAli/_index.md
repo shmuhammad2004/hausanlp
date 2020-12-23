@@ -31,11 +31,11 @@ education:
     institution: PhD Universiti Kebangsaan Malaysia 
     year: 2020
   - course: MSc in Computer Science
-    institution: The University of Nottingham 
+    institution: Bayero University, Kano 
     year: 2014
   - course: BSc in Computer Science
     institution: Bayero University, Kano
-    year: 2010
+    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -72,7 +72,9 @@ highlight_name: true
 
 ---
 
-Ibrahim Said Ahmad is lecturer in the Department of Information Technology, Bayero University Kano. He completed his PhD from Universiti Kebangsaan Malaysia, in 2020 focusing on data science. His main areas of interest lie in Data Analytics, Natural Language Processing and Artificial Intelligence specifically in business intelligence and computational intelligence. He has worked and published articles on sentiment analysis, natural language processing, and data mining. 
+As Ali is lecturer in the Department of Information Technology, 
+
+
 
 <style>
 body {

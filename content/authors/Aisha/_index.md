@@ -72,7 +72,7 @@ highlight_name: true
 
 ---
 
-Ibrahim Said Ahmad is lecturer in the Department of Information Technology, Bayero University Kano. He completed his PhD from Universiti Kebangsaan Malaysia, in 2020 focusing on data science. His main areas of interest lie in Data Analytics, Natural Language Processing and Artificial Intelligence specifically in business intelligence and computational intelligence. He has worked and published articles on sentiment analysis, natural language processing, and data mining. 
+Aisha is a  
 
 <style>
 body {
