@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hausanlp.github.io/</loc>
+    <lastmod>2020-12-27T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/event/</loc>
+    <lastmod>2020-12-27T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/event/example/</loc>
+    <lastmod>2020-12-27T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hausanlp.github.io/publication-type/2/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
@@ -19,11 +34,6 @@
   
   <url>
     <loc>https://hausanlp.github.io/author/bashir-shehu-galadanci/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hausanlp.github.io/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -269,10 +279,6 @@
   
   <url>
     <loc>https://hausanlp.github.io/author/kabir-muhammad/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hausanlp.github.io/event/</loc>
   </url>
   
   <url>
