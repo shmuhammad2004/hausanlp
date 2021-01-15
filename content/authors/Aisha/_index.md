@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Aisha Muhammad
+title: Amina Muhammad
 
 # Username (this should match the folder name)
 authors:
@@ -10,44 +10,34 @@ authors:
 superuser: false
 
 # Role/position
-role: Lecturer in Information Technology
+role: 
 # Organizations/Affiliations
 organizations:
-- name: Bayero University, Kano
-  url: "https://www.buk.edu.ng/"
+- name: 
+  url: 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
+bio: 
 interests:
-- Data Mining
 - Machine Learning
 - Sentiment Analysis
 
 education:      
   courses: 
 
-  - course: PhD in computer Science 
-    institution: PhD Universiti Kebangsaan Malaysia 
-    year: 2020
-  - course: MSc in Computer Science
-    institution: The University of Nottingham 
-    year: 2014
-  - course: BSc in Computer Science
-    institution: Bayero University, Kano
-    year: 2010
+  
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:isahmad.it@buk.edu.ng'  
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.nl/citations?user=QA4Aib4AAAAJ&hl=en
+#   form "mailto:your-email@example.com" or "#contact" for #contact widget.
+#social:
+#- icon: envelope
+ # icon_pack: fas
+  #link: 'mailto:isahmad.it@buk.edu.ng'  
+#- icon: google-scholar
+ # icon_pack: ai
+  #link: https://scholar.google.nl/citations?user=QA4Aib4A#AAAJ&hl=en
   
 
   
