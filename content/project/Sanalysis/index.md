@@ -1,6 +1,6 @@
 ---
 title: Text Classification
-summary: 
+summary:  "Project on Hausa Text Classification"
 tags:
 - classification
 date: "2016-04-27T00:00:00Z"

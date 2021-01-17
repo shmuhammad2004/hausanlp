@@ -1,6 +1,6 @@
 ---
 title: Hausa Speech Recognition
-summary: 
+summary: "Project on Hausa Speech Recoginition"
 tags:
 - speech
 date: "2016-04-27T00:00:00Z"

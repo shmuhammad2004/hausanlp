@@ -1,6 +1,6 @@
 ---
 title: Hausa Machine Translation
-summary: 
+summary:  "Project on Hausa Machine Translation"
 tags:
 - translation
 date: "2016-04-27T00:00:00Z"
