@@ -1,12 +1,12 @@
 ---
 title: Hausa Corpus
-summary: This is a collection of Hausa corpus
+summary: This project aims to create, collect, and document Hausa corpus.
 tags:
 - corpus
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://github.com/HausaNLP/hausacorpus/settings"
 
 image:
   caption: Photo by rawpixel on Unsplash
@@ -29,6 +29,6 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-This
+
 
 
