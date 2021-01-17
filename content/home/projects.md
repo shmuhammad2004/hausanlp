@@ -4,10 +4,10 @@
 widget: portfolio
 
 # This file represents a page section.
-headless: true
+headless: false
 
 # Order that this section appears on the page.
-weight: 65
+weight: 30
 
 title: Projects
 subtitle: ''
@@ -27,10 +27,17 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Hausa Sentiment Analysis
-    tag: Deep Learning
+  - name: Hausa Text Classification
+    tag:  classification
   - name: Hausa Machine Translation
-    
+    tag : translation
+  - name: Hausa Speech Recognition
+    tag : speech
+  - name: Hausa Corpus
+    tag : corpus
+
+
+
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '2'
