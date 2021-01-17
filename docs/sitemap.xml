@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hausanlp.github.io/author/admin/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/authors/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/tag/data-science/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hausanlp.github.io/</loc>
-    <lastmod>2020-12-27T09:00:00+00:00</lastmod>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/post/tidying-messy-data/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/post/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/tag/rstats/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/tags/</loc>
+    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,11 +59,6 @@
   
   <url>
     <loc>https://hausanlp.github.io/author/abubakar-isa/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hausanlp.github.io/authors/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -55,26 +85,6 @@
   <url>
     <loc>https://hausanlp.github.io/publication/abdulmumin-2020-aa/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hausanlp.github.io/projects/sanalysis/</loc>
-    <lastmod>2020-02-27T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hausanlp.github.io/tag/nlp/</loc>
-    <lastmod>2020-02-27T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hausanlp.github.io/projects/</loc>
-    <lastmod>2020-02-27T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hausanlp.github.io/tags/</loc>
-    <lastmod>2020-02-27T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -158,11 +168,6 @@
   </url>
   
   <url>
-    <loc>https://hausanlp.github.io/author/admin/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hausanlp.github.io/publications/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
@@ -175,6 +180,51 @@
   <url>
     <loc>https://hausanlp.github.io/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/tag/classification/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/tag/corpus/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/project/hausacorpus/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/project/hausatranslation/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/project/hausaspeech/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/project/sanalysis/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/tag/speech/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausanlp.github.io/tag/translation/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -250,10 +300,6 @@
   </url>
   
   <url>
-    <loc>https://hausanlp.github.io/author/amina-muhammad/</loc>
-  </url>
-  
-  <url>
     <loc>https://hausanlp.github.io/author/bello-shehu-bello/</loc>
   </url>
   
@@ -271,14 +317,6 @@
   
   <url>
     <loc>https://hausanlp.github.io/author/jaafar-zubairu-maitama/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hausanlp.github.io/author/kabir-muhammad/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hausanlp.github.io/post/</loc>
   </url>
   
   <url>
