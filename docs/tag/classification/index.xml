@@ -13,41 +13,15 @@
     </image>
     
     <item>
-      <title>Sentiment Analysis</title>
+      <title>Text Classification</title>
       <link>https://hausanlp.github.io/project/sanalysis/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://hausanlp.github.io/project/sanalysis/</guid>
-      <description>&lt;p&gt;This&lt;/p&gt;
-&lt;h1 id=&#34;---&#34;&gt;&amp;mdash;&lt;/h1&gt;
-&lt;h1 id=&#34;date-2020-02-27t0000000100&#34;&gt;date: &amp;ldquo;2020-02-27T00:00:00+01:00&amp;rdquo;&lt;/h1&gt;
-&lt;h1 id=&#34;external_link-&#34;&gt;external_link: &amp;quot;&amp;quot;&lt;/h1&gt;
-&lt;h1 id=&#34;image&#34;&gt;image:&lt;/h1&gt;
-&lt;h1 id=&#34;caption-&#34;&gt;caption: &amp;quot;&amp;quot;&lt;/h1&gt;
-&lt;h1 id=&#34;focal_point-smart&#34;&gt;focal_point: Smart&lt;/h1&gt;
-&lt;h1 id=&#34;links&#34;&gt;#links:&lt;/h1&gt;
-&lt;h1 id=&#34;--icon-twitter&#34;&gt;#- icon: twitter&lt;/h1&gt;
-&lt;h1 id=&#34;-icon_pack-fab&#34;&gt;# icon_pack: fab&lt;/h1&gt;
-&lt;h1 id=&#34;--name-follow&#34;&gt;#  name: Follow&lt;/h1&gt;
-&lt;h1 id=&#34;-url-httpstwittercomgeorgecushen&#34;&gt;# url: &lt;a href=&#34;https://twitter.com/georgecushen&#34;&gt;https://twitter.com/georgecushen&lt;/a&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;slides-example-slides&#34;&gt;#slides: example-slides&lt;/h1&gt;
-&lt;h1 id=&#34;summary-this-project-aims-to-develop-hausa-language-resource-for-natural-language-processing-task-such-as-hausa-social-media-corpus-hausa-sentiment-lexicon--hausaner--and-pos&#34;&gt;summary: This project aims to develop Hausa language resource for natural language processing task such as Hausa Social Media Corpus, Hausa Sentiment Lexicon , HausaNER , and POS.&lt;/h1&gt;
-&lt;h1 id=&#34;tags&#34;&gt;tags:&lt;/h1&gt;
-&lt;h1 id=&#34;--nlp&#34;&gt;- NLP&lt;/h1&gt;
-&lt;h1 id=&#34;title-hausa-text-classification&#34;&gt;title: Hausa Text Classification&lt;/h1&gt;
-&lt;h1 id=&#34;url_code&#34;&gt;url_code:&lt;/h1&gt;
-&lt;h1 id=&#34;url_pdf-&#34;&gt;url_pdf: &amp;quot;&amp;quot;&lt;/h1&gt;
-&lt;h1 id=&#34;url_slides-&#34;&gt;url_slides: &amp;quot;&amp;quot;&lt;/h1&gt;
-&lt;h1 id=&#34;url_video-&#34;&gt;url_video: &amp;quot;&amp;quot;&lt;/h1&gt;
-&lt;h1 id=&#34;----1&#34;&gt;&amp;mdash;&lt;/h1&gt;
-&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;this-project-involves-people-that-are-interested-in-hausa-text-classification-task-such-as-sentiment-analysis&#34;&gt;This project involves people that are interested in Hausa text classification task such as sentiment analysis.&lt;/h1&gt;
-&lt;h1 id=&#34;heading-1&#34;&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;heading-2&#34;&gt;&lt;/h1&gt;
+      <description>&lt;p&gt;This project involves people that are interested in Hausa text classification task such as sentiment analysis.&lt;/p&gt;
 &lt;h1 id=&#34;style&#34;&gt;&lt;style&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;body-&#34;&gt;body {&lt;/h1&gt;
 &lt;h1 id=&#34;text-align-justify&#34;&gt;text-align: justify}&lt;/h1&gt;
 &lt;h1 id=&#34;style-1&#34;&gt;&lt;/style&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;heading-3&#34;&gt;&lt;/h1&gt;
 </description>
     </item>
     

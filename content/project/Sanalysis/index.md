@@ -1,6 +1,6 @@
 ---
-title: Sentiment Analysis
-summary: This is text classification task
+title: Text Classification
+summary: This project involve tasks such as sentiment analysis and hate speech detection. 
 tags:
 - classification
 date: "2016-04-27T00:00:00Z"
@@ -29,39 +29,12 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-This
+This project involves people that are interested in Hausa text classification task such as sentiment analysis. 
 
 
-
-
-
-# ---
-# date: "2020-02-27T00:00:00+01:00"
-# external_link: ""
-# image:
-#   caption: ""
-#   focal_point: Smart
-# #links:
-# #- icon: twitter
-#  # icon_pack: fab
-# #  name: Follow
-#  # url: https://twitter.com/georgecushen
-# #slides: example-slides
-# summary: This project aims to develop Hausa language resource for natural language processing task such as Hausa Social Media Corpus, Hausa Sentiment Lexicon , HausaNER , and POS.
-# tags:
-# - NLP
-# title: Hausa Text Classification
-# url_code: 
-# url_pdf: ""
-# url_slides: ""
-# url_video: ""
-# ---
-# 
-# This project involves people that are interested in Hausa text classification task such as sentiment analysis. 
-# 
-# 
+ 
 # <style>
 # body {
 # text-align: justify}
 # </style>
-# 
+ 
