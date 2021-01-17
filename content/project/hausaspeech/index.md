@@ -29,6 +29,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-This
-
+This is project involves people with intreset on Hausa speech recognition and related research. .
 

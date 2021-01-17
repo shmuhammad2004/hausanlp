@@ -1,6 +1,6 @@
 ---
 title: Hausa Machine Translation
-summary: This is text classification task
+summary: This project involves people with interest in Hausa Machine Translation.
 tags:
 - translation
 date: "2016-04-27T00:00:00Z"
@@ -29,6 +29,6 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-This
+Idris Abdulmumin is the lead for this project. He works on Hausa machine translation and related research. 
 
 
