@@ -1,6 +1,6 @@
 ---
 title: Hausa Machine Translation
-summary: This project involves people with interest in Hausa Machine Translation.
+summary: 
 tags:
 - translation
 date: "2016-04-27T00:00:00Z"

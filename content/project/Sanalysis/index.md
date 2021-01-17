@@ -1,6 +1,6 @@
 ---
 title: Text Classification
-summary: This project involve people with interest in sentiment analysis and hate speech detection. 
+summary: 
 tags:
 - classification
 date: "2016-04-27T00:00:00Z"

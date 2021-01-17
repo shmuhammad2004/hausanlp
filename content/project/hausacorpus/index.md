@@ -1,6 +1,6 @@
 ---
 title: Hausa Corpus
-summary: This project aims to create, collect, and document Hausa corpus.
+summary: 
 tags:
 - corpus
 date: "2016-04-27T00:00:00Z"
