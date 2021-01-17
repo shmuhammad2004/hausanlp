@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="Data scientist often spent about 80% of data analysis process on cleaning and preparing data1. Worst still, cleaning and preparing the data is an iterative process. Hadley Wickham refer to this process of cleaning and preparing data as data tidying: structuring datasets to facilitate analysis.">
+  <meta name="description" content="  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://hausanlp.github.io/post/tidying-messy-data/">
@@ -262,14 +262,14 @@
   
   <meta property="og:site_name" content="HausaNLP Research Group">
   <meta property="og:url" content="https://hausanlp.github.io/post/tidying-messy-data/">
-  <meta property="og:title" content="How to Tidy Messy Data  Part 1) | HausaNLP Research Group">
-  <meta property="og:description" content="Data scientist often spent about 80% of data analysis process on cleaning and preparing data1. Worst still, cleaning and preparing the data is an iterative process. Hadley Wickham refer to this process of cleaning and preparing data as data tidying: structuring datasets to facilitate analysis."><meta property="og:image" content="https://hausanlp.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
+  <meta property="og:title" content="Hausa Stop Words | HausaNLP Research Group">
+  <meta property="og:description" content="  "><meta property="og:image" content="https://hausanlp.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://hausanlp.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-01-09T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2021-01-17T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-01-09T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-01-17T00:00:00&#43;00:00">
   
 
   
@@ -295,10 +295,10 @@
     "@type": "WebPage",
     "@id": "https://hausanlp.github.io/post/tidying-messy-data/"
   },
-  "headline": "How to Tidy Messy Data  Part 1)",
+  "headline": "Hausa Stop Words",
   
-  "datePublished": "2021-01-09T00:00:00Z",
-  "dateModified": "2021-01-09T00:00:00Z",
+  "datePublished": "2021-01-17T00:00:00Z",
+  "dateModified": "2021-01-17T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -313,7 +313,7 @@
       "url": "https://hausanlp.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Data scientist often spent about 80% of data analysis process on cleaning and preparing data1. Worst still, cleaning and preparing the data is an iterative process. Hadley Wickham refer to this process of cleaning and preparing data as data tidying: structuring datasets to facilitate analysis."
+  "description": "  "
 }
 </script>
 
@@ -331,7 +331,7 @@
 
 
 
-  <title>How to Tidy Messy Data  Part 1) | HausaNLP Research Group</title>
+  <title>Hausa Stop Words | HausaNLP Research Group</title>
 
 </head>
 
@@ -648,7 +648,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>How to Tidy Messy Data  Part 1)</h1>
+  <h1>Hausa Stop Words</h1>
 
   
 
@@ -677,7 +677,7 @@
     
       
     
-    Jan 9, 2021
+    Jan 17, 2021
   </span>
   
 
@@ -686,7 +686,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    8 min read
+    0 min read
   </span>
   
 
@@ -728,228 +728,6 @@
 <script src="index_files/header-attrs/header-attrs.js"></script>
 
 
-<p>Data scientist often spent about 80% of data analysis process on cleaning and preparing data<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. Worst still, cleaning and preparing the data is an iterative process. Hadley Wickham refer to this process of cleaning and preparing data as <strong>data tidying</strong>: structuring datasets to facilitate analysis. Therefore, it is very important to get the right tool to efficiently and quickly tidy any messy data and spend more time working on your analysis.</p>
-<center>
-<img src="tidydata.png" title="fig:" alt="Tidydata" />
-</center>
-<p>I mostly use Python for machine learning. But R is an exceptional tool for data manipulation, data visualization, and data analysis due to the many available packages in R developed mainly for data analysis. R is becoming the “de facto best tool” for data analysis. Therefore, we will use R to explore different ways to tidy data. In this part 1 series, we will gently start by exploring the <code>Janitor</code><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> package and see how it makes tidying data easy. In subsequent series, we will explore <code>dplyr</code><a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> and <code>tidyr</code><a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> packages which are the most complete packages for data manipulaton and tidying data.</p>
-<center>
-<img src="rpython.jpg" title="fig:" alt="R Vs Python" />
-</center>
-<div id="janitor-package" class="section level2">
-<h2>Janitor Package</h2>
-<p>The janitor package has user-friendly functions for tidying messy data. It provides functions for formating column names, detecting duplicate records, provide quick tabulations, and many more.</p>
-<p>For the purpose of this series, we are going to use a <a href="https://github.com/BrunoGrandePhD/2020-11-14-rladies-workshop/blob/main/learnr-tutorial/messy_penguins.cs">pinguin dataset</a> that has been deliberately messed.</p>
-<p>Loading the required packages</p>
-<pre class="r"><code>library(janitor)                                                     # CRAN v2.1.0
-library(tidyverse)                                                   # CRAN v1.3.0</code></pre>
-<p>Loading the dataset from <a href="%22https://raw.githubusercontent.com/BrunoGrandePhD/2020-11-14-rladies-workshop/rladies-tunis/learnr-tutorial/messy_penguins.csv">Github</a>.</p>
-<pre class="r"><code>messy_penguins &lt;- read_csv(&quot;https://raw.githubusercontent.com/BrunoGrandePhD/2020-11-14-rladies-workshop/rladies-tunis/learnr-tutorial/messy_penguins.csv&quot;)</code></pre>
-<p>Observing the data</p>
-<pre class="r"><code>glimpse(messy_penguins)</code></pre>
-<pre><code>## Rows: 344
-## Columns: 18
-## $ studyName             &lt;chr&gt; &quot;PAL0708&quot;, &quot;PAL0708&quot;, &quot;PAL0708&quot;, &quot;PAL0708&quot;, &quot;PA…
-## $ `Sample Number`       &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, …
-## $ Species               &lt;chr&gt; &quot;Adelie Penguin (Pygoscelis adeliae)&quot;, NA, NA, …
-## $ Region                &lt;chr&gt; &quot;Anvers&quot;, &quot;Anvers&quot;, &quot;Anvers&quot;, &quot;Anvers&quot;, &quot;Anvers…
-## $ Island                &lt;chr&gt; NA, NA, &quot;Torgersen&quot;, NA, NA, NA, NA, NA, NA, NA…
-## $ Stage                 &lt;chr&gt; &quot;Adult, 2 Egg Stage&quot;, &quot;Adult, 1 Egg Stage&quot;, &quot;Ju…
-## $ `Individual ID`       &lt;chr&gt; &quot;N1A1&quot;, &quot;N1A2&quot;, &quot;N2A1&quot;, &quot;N2A2&quot;, &quot;N3A1&quot;, &quot;N3A2&quot;,…
-## $ `Clutch Completion`   &lt;chr&gt; &quot;Yes&quot;, &quot;Yes&quot;, &quot;Yes&quot;, &quot;Yes&quot;, &quot;Yes&quot;, &quot;Yes&quot;, &quot;No&quot;,…
-## $ `Date Egg`            &lt;chr&gt; &quot;11/11/07&quot;, &quot;11/11/07&quot;, &quot;11/16/07&quot;, &quot;11/16/07&quot;,…
-## $ `Culmen Length (mm)`  &lt;chr&gt; &quot;39.1&quot;, &quot;39.5&quot;, &quot;40.3&quot;, NA, &quot;36.7&quot;, &quot;39.3&quot;, &quot;38…
-## $ Nickname              &lt;chr&gt; &quot;Kamile&quot;, &quot;Dixie&quot;, &quot;Arian&quot;, &quot;Alexander&quot;, &quot;Dewi&quot;…
-## $ `Culmen Depth (mm)`   &lt;chr&gt; &quot;18.7&quot;, &quot;17.4&quot;, &quot;18&quot;, &quot;-&quot;, &quot;19.3&quot;, &quot;20.6&quot;, &quot;17.…
-## $ `Flipper Length (mm)` &lt;chr&gt; &quot;181&quot;, &quot;186&quot;, &quot;195&quot;, &quot;--&quot;, &quot;193&quot;, &quot;190&quot;, &quot;181&quot;,…
-## $ `Body Mass`           &lt;chr&gt; &quot;3750 g&quot;, &quot;3800g&quot;, &quot;3250&quot;, NA, &quot;3450 grams&quot;, &quot;3…
-## $ Sex                   &lt;chr&gt; &quot;M&quot;, &quot;FEMALE&quot;, &quot;FEMALE&quot;, NA, &quot;FEMALE&quot;, &quot;MALE&quot;, …
-## $ `Delta 15 N (o/oo)`   &lt;chr&gt; NA, &quot;8.94956&quot;, &quot;8.36821&quot;, NA, &quot;8.76651&quot;, &quot;8.664…
-## $ `Delta 13 C (o/oo)`   &lt;chr&gt; NA, &quot;-24.69454&quot;, &quot;-25.33302&quot;, NA, &quot;-25.32426&quot;, …
-## $ Comments              &lt;chr&gt; &quot;Not enough blood for isotopes.&quot;, NA, NA, &quot;Adul…</code></pre>
-<div id="clean_names-function" class="section level3">
-<h3><code>clean_names()</code> function</h3>
-<p>The <code>clean_names()</code> handles problematic variable names, returning only lowercase letters with underscore as separator, appends numbers to duplicated names, andles special characters and spaces, and converts “%” to “percent” to retain meaning. clean_names() can only be use on dataframe like objects, other objects such as named lists and vectors, <code>make_clean_names()</code> is used.</p>
-<p>Let us observe column names for our messy data</p>
-<pre class="r"><code>colnames(messy_penguins)</code></pre>
-<pre><code>##  [1] &quot;studyName&quot;           &quot;Sample Number&quot;       &quot;Species&quot;            
-##  [4] &quot;Region&quot;              &quot;Island&quot;              &quot;Stage&quot;              
-##  [7] &quot;Individual ID&quot;       &quot;Clutch Completion&quot;   &quot;Date Egg&quot;           
-## [10] &quot;Culmen Length (mm)&quot;  &quot;Nickname&quot;            &quot;Culmen Depth (mm)&quot;  
-## [13] &quot;Flipper Length (mm)&quot; &quot;Body Mass&quot;           &quot;Sex&quot;                
-## [16] &quot;Delta 15 N (o/oo)&quot;   &quot;Delta 13 C (o/oo)&quot;   &quot;Comments&quot;</code></pre>
-<p>We can see that, the column names structure is not uniform ( e.g “studyName”, “Sample Number”, “Delta 15 N (o/oo)”). So, to tidy these column names, we can use the <code>clean_names()</code> function to change them to uniform structure.</p>
-<pre class="r"><code>tidy_penguins &lt;- clean_names(messy_penguins) 
-
-colnames(tidy_penguins)</code></pre>
-<pre><code>##  [1] &quot;study_name&quot;        &quot;sample_number&quot;     &quot;species&quot;          
-##  [4] &quot;region&quot;            &quot;island&quot;            &quot;stage&quot;            
-##  [7] &quot;individual_id&quot;     &quot;clutch_completion&quot; &quot;date_egg&quot;         
-## [10] &quot;culmen_length_mm&quot;  &quot;nickname&quot;          &quot;culmen_depth_mm&quot;  
-## [13] &quot;flipper_length_mm&quot; &quot;body_mass&quot;         &quot;sex&quot;              
-## [16] &quot;delta_15_n_o_oo&quot;   &quot;delta_13_c_o_oo&quot;   &quot;comments&quot;</code></pre>
-<p>Now, all the column names are change to lower-case and have consistent structure. By default, <code>clean_names()</code> return snake-case like names, but you can specify other options such as the following cases:</p>
-<ul>
-<li>snake_case: “snake”</li>
-<li>lowerCamel: “lower_camel” or “small_camel”</li>
-<li>UpperCamel: “upper_camel” or “big_camel”</li>
-<li>ALL_CAPS: “all_caps” or “screaming_snake”</li>
-<li>lowerUPPER: “lower_upper”</li>
-<li>UPPERlower: “upper_lower”</li>
-<li>Sentence case: “sentence”</li>
-<li>Title Case: “title”</li>
-</ul>
-<p>You can get details about any case <a href="https://rdrr.io/cran/snakecase/man/to_any_case.html">here</a></p>
-<pre class="r"><code>messy_penguins %&gt;%  
-  clean_names(case =&quot;lower_camel&quot;) %&gt;% 
-   colnames()</code></pre>
-<pre><code>##  [1] &quot;studyName&quot;        &quot;sampleNumber&quot;     &quot;species&quot;          &quot;region&quot;          
-##  [5] &quot;island&quot;           &quot;stage&quot;            &quot;individualId&quot;     &quot;clutchCompletion&quot;
-##  [9] &quot;dateEgg&quot;          &quot;culmenLengthMm&quot;   &quot;nickname&quot;         &quot;culmenDepthMm&quot;   
-## [13] &quot;flipperLengthMm&quot;  &quot;bodyMass&quot;         &quot;sex&quot;              &quot;delta15NOOo&quot;     
-## [17] &quot;delta13COOo&quot;      &quot;comments&quot;</code></pre>
-<p>To clean names, but leave some abbreviations to appear the way you want.</p>
-<pre class="r"><code>messy_penguins %&gt;% 
-      clean_names(case = &quot;lower_camel&quot;,  abbreviations = c(&quot;ID&quot;, &quot;N&quot;, &quot;mm&quot;)) %&gt;% 
-     colnames()</code></pre>
-<pre><code>##  [1] &quot;studyNAme&quot;        &quot;sampleNUmber&quot;     &quot;species&quot;          &quot;region&quot;          
-##  [5] &quot;island&quot;           &quot;stage&quot;            &quot;individualID&quot;     &quot;clutchCompletion&quot;
-##  [9] &quot;dateEgg&quot;          &quot;culmenLengthMm&quot;   &quot;nIckname&quot;         &quot;culmenDepthMm&quot;   
-## [13] &quot;flipperLengthMm&quot;  &quot;bodyMass&quot;         &quot;sex&quot;              &quot;delta15NOOo&quot;     
-## [17] &quot;delta13COOo&quot;      &quot;comments&quot;</code></pre>
-<p>You can also restore column names to Title Case, e.g., for plotting</p>
-<pre class="r"><code>tidy_penguins %&gt;%  
-  clean_names( case = &quot;title&quot;) %&gt;% 
-   colnames()</code></pre>
-<pre><code>##  [1] &quot;Study Name&quot;        &quot;Sample Number&quot;     &quot;Species&quot;          
-##  [4] &quot;Region&quot;            &quot;Island&quot;            &quot;Stage&quot;            
-##  [7] &quot;Individual Id&quot;     &quot;Clutch Completion&quot; &quot;Date Egg&quot;         
-## [10] &quot;Culmen Length Mm&quot;  &quot;Nickname&quot;          &quot;Culmen Depth Mm&quot;  
-## [13] &quot;Flipper Length Mm&quot; &quot;Body Mass&quot;         &quot;Sex&quot;              
-## [16] &quot;Delta 15 n o Oo&quot;   &quot;Delta 13 c o Oo&quot;   &quot;Comments&quot;</code></pre>
-<p>For vectors, we can use <code>make_clean_names</code> functions.</p>
-<pre class="r"><code>x &lt;- structure(1:4, names = c(&quot;This is first&quot;, &quot;this issecond&quot;, &quot;3rd&quot;, &quot;FinalChoice&quot;))
-x</code></pre>
-<pre><code>## This is first this issecond           3rd   FinalChoice 
-##             1             2             3             4</code></pre>
-<pre class="r"><code>names(x) &lt;- make_clean_names(names(x)) # `x` is added to names that start with number
-x</code></pre>
-<pre><code>## this_is_first this_issecond          x3rd  final_choice 
-##             1             2             3             4</code></pre>
-</div>
-<div id="tabyl-function" class="section level3">
-<h3><code>tabyl()</code> function</h3>
-<p>This function is an alternative to the <code>table()</code> function from base-R. The function generate a frequency table from either a dataframe or vector.</p>
-<pre class="r"><code>studynames &lt;- messy_penguins %&gt;%  clean_names() %&gt;% 
-                tabyl(study_name) # %&gt;% 
-                #adorn_pct_formatting(digits = 0, affix_sign = TRUE) # creates a percentage column
-
-studynames</code></pre>
-<pre><code>##  study_name   n   percent
-##     PAL0708 110 0.3197674
-##     PAL0809 114 0.3313953
-##     PAL0910 120 0.3488372</code></pre>
-<p>After <code>tabyl()</code> function, we can use the janitor’s family of adorn_functions to format the resultant dataframes.</p>
-<pre class="r"><code>studynames &lt;- messy_penguins %&gt;%  clean_names() %&gt;% 
-                tabyl(study_name) %&gt;% 
-                adorn_pct_formatting(digits = 0, affix_sign = TRUE) %&gt;%  # format the percentage column
-                adorn_totals(where = &quot;row&quot;) #%&gt;%  #Add totals 
-
-
-studynames</code></pre>
-<pre><code>##  study_name   n percent
-##     PAL0708 110     32%
-##     PAL0809 114     33%
-##     PAL0910 120     35%
-##       Total 344       -</code></pre>
-<p>Other adorn functions are :</p>
-<ul>
-<li><code>adorn_pct_formatting</code> Format a data.frame of decimals as percentages</li>
-<li><code>adorn_rounding</code> Round the numeric columns in a data.frame</li>
-<li><code>adorn_totals</code> Add a totals row and/or column to a data.frame.</li>
-<li><code>adorn_ns</code> Add underlying Ns to a tabyl displaying percentages</li>
-</ul>
-<pre class="r"><code>mtcars %&gt;%
-  tabyl(am, cyl) %&gt;% 
-  adorn_percentages(&quot;col&quot;) %&gt;% 
- adorn_totals(where = c(&quot;row&quot;,&quot;col&quot;)) %&gt;% 
-  adorn_pct_formatting(digits = 0) %&gt;% 
-  adorn_rounding(digits = 3) %&gt;% 
-  adorn_ns(position = &quot;front&quot;) # %&gt;% </code></pre>
-<pre><code>##     am         4        6         8     Total
-##      0  3  (27%) 4  (57%) 12  (86%) 19 (170%)
-##      1  8  (73%) 3  (43%)  2  (14%) 13 (130%)
-##  Total 11 (100%) 7 (100%) 14 (100%) 32 (300%)</code></pre>
-<p>Let use compare with Base-R <code>table()</code> function:</p>
-<pre class="r"><code>tidy_names &lt;- messy_penguins %&gt;%  
-                clean_names() 
-              
-table(tidy_names$study_name)</code></pre>
-<pre><code>## 
-## PAL0708 PAL0809 PAL0910 
-##     110     114     120</code></pre>
-<p>If you have a vector, the function also works the same</p>
-<pre class="r"><code>Age &lt;- c(23, 24, 24, 25, 23,26, 25)
-tabyl(Age)</code></pre>
-<pre><code>##  Age n   percent
-##   23 2 0.2857143
-##   24 2 0.2857143
-##   25 2 0.2857143
-##   26 1 0.1428571</code></pre>
-</div>
-<div id="remove_empty" class="section level3">
-<h3><code>remove_empty()</code></h3>
-<p>This functions usage is straight foward. It simply removes any colum/rows from a data.frame or matrix that contain all “NA” as their entries.</p>
-<pre class="r"><code>empty &lt;- messy_penguins %&gt;% 
-  remove_empty() # this will remove both empty rows and columns by default. </code></pre>
-<pre><code>## value for &quot;which&quot; not specified, defaulting to c(&quot;rows&quot;, &quot;cols&quot;)</code></pre>
-<pre class="r"><code>empty &lt;- messy_penguins %&gt;% 
-  remove_empty(which = &quot;rows&quot;, quiet = TRUE) # specify row or column and use quite argument to supress  messages be suppressed (TRUE) or printed (FALSE) indicating the summary of empty columns or rows removed?</code></pre>
-</div>
-<div id="remove-constant" class="section level3">
-<h3><code>remove-constant()</code></h3>
-<p>Sometimes, we may need to find columns that have the same values, we can use <code>remove-constant()</code> to to do that.</p>
-<pre class="r"><code>data.frame(A=1, B=1:3, c= c(3,3,3))  </code></pre>
-<pre><code>##   A B c
-## 1 1 1 3
-## 2 1 2 3
-## 3 1 3 3</code></pre>
-<pre class="r"><code>data.frame(A=1, B=1:3, c= c(3,3,3)) %&gt;%  
-dplyr::select_at(setdiff(names(.), names(remove_constant(.)))) %&gt;%unique()</code></pre>
-<pre><code>##   A c
-## 1 1 3</code></pre>
-</div>
-<div id="get_dupes-to-remove-duplicates" class="section level3">
-<h3><code>get_dupes()</code> to Remove duplicates</h3>
-<p>Sometimes our data may contains duplicates that we may not like. So, we need to find and possibly remove them if any. <code>get_dupes()</code> returns a records (and inserts a count of duplicates) so that we can deal with identfied cases accordingly.</p>
-<pre class="r"><code>messy_penguins %&gt;% 
-  clean_names() %&gt;% 
-  get_dupes() # This dataset no any duplicate.</code></pre>
-<pre><code>## No variable names specified - using all columns.</code></pre>
-<pre><code>## No duplicate combinations found of: study_name, sample_number, species, region, island, stage, individual_id, clutch_completion, date_egg, ... and 9 other variables</code></pre>
-<pre><code>## # A tibble: 0 x 19
-## # … with 19 variables: study_name &lt;chr&gt;, sample_number &lt;dbl&gt;, species &lt;chr&gt;,
-## #   region &lt;chr&gt;, island &lt;chr&gt;, stage &lt;chr&gt;, individual_id &lt;chr&gt;,
-## #   clutch_completion &lt;chr&gt;, date_egg &lt;chr&gt;, culmen_length_mm &lt;chr&gt;,
-## #   nickname &lt;chr&gt;, culmen_depth_mm &lt;chr&gt;, flipper_length_mm &lt;chr&gt;,
-## #   body_mass &lt;chr&gt;, sex &lt;chr&gt;, delta_15_n_o_oo &lt;chr&gt;, delta_13_c_o_oo &lt;chr&gt;,
-## #   comments &lt;chr&gt;, dupe_count &lt;int&gt;</code></pre>
-<p>Tip: call clean_names() every time you read in a new data set to automatically clean column names.</p>
-<style>
-body {
-text-align: justify}
-</style>
-</div>
-</div>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p><a href="https://vita.had.co.nz/papers/tidy-data.pdf">Tidy Data : Hadley Wikham</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p><a href="https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html">The janitor package</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p><a href="https://dplyr.tidyverse.org/">dplyr the grammar of data manipulation</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p><a href="https://tidyr.tidyverse.org/articles/tidy-data.html">Tidyr</a><a href="#fnref4" class="footnote-back">↩︎</a></p></li>
-</ol>
-</div>
 
     </div>
 
@@ -960,9 +738,7 @@ text-align: justify}
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/rstats/">Rstats</a>
-  
-  <a class="badge badge-light" href="/tag/data-science/">Data Science</a>
+  <a class="badge badge-light" href="/tag/corpus/">corpus</a>
   
 </div>
 
@@ -979,7 +755,7 @@ text-align: justify}
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://hausanlp.github.io/post/tidying-messy-data/&amp;text=How%20to%20Tidy%20Messy%20Data%20%20Part%201%29" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://hausanlp.github.io/post/tidying-messy-data/&amp;text=Hausa%20Stop%20Words" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -992,7 +768,7 @@ text-align: justify}
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://hausanlp.github.io/post/tidying-messy-data/&amp;t=How%20to%20Tidy%20Messy%20Data%20%20Part%201%29" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://hausanlp.github.io/post/tidying-messy-data/&amp;t=Hausa%20Stop%20Words" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1005,7 +781,7 @@ text-align: justify}
       
       
       <li>
-        <a href="mailto:?subject=How%20to%20Tidy%20Messy%20Data%20%20Part%201%29&amp;body=https://hausanlp.github.io/post/tidying-messy-data/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Hausa%20Stop%20Words&amp;body=https://hausanlp.github.io/post/tidying-messy-data/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1018,7 +794,7 @@ text-align: justify}
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://hausanlp.github.io/post/tidying-messy-data/&amp;title=How%20to%20Tidy%20Messy%20Data%20%20Part%201%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://hausanlp.github.io/post/tidying-messy-data/&amp;title=Hausa%20Stop%20Words" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1031,7 +807,7 @@ text-align: justify}
       
       
       <li>
-        <a href="whatsapp://send?text=How%20to%20Tidy%20Messy%20Data%20%20Part%201%29%20https://hausanlp.github.io/post/tidying-messy-data/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Hausa%20Stop%20Words%20https://hausanlp.github.io/post/tidying-messy-data/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1044,7 +820,7 @@ text-align: justify}
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://hausanlp.github.io/post/tidying-messy-data/&amp;title=How%20to%20Tidy%20Messy%20Data%20%20Part%201%29" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://hausanlp.github.io/post/tidying-messy-data/&amp;title=Hausa%20Stop%20Words" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1085,6 +861,15 @@ text-align: justify}
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/hausacorpus/">Hausa Corpus</a></li>
+      
+    </ul>
+  </div>
   
 
 
