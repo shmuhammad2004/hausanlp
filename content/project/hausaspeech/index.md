@@ -1,6 +1,6 @@
 ---
 title: Hausa Speech Recognition
-summary: This is text classification task
+summary: This is a project on Hausa speech recognition lead by AbdulRahman Muhammad.
 tags:
 - speech
 date: "2016-04-27T00:00:00Z"
