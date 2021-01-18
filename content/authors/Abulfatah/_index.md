@@ -8,7 +8,7 @@ authors:
 - abdulfath
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: IT and Research Manager
@@ -54,7 +54,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "abdulmabdulfata@gmail.com"
+email: ""
 
 
 # Highlight the author in author lists? (true/false)
