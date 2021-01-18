@@ -44,7 +44,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:abdulmabdulfata@gmail.com'  
+  link: 'mailto:abdulmabdulfata@gmail.com' 
+- icon: github
+  icon_pack: fab
+  link: https://github.com/abdulmabdulfata
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/digital_abdul
 
    
 # Link to a PDF of your resume/CV from the About widget.
