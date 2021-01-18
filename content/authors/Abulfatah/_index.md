@@ -32,10 +32,10 @@ education:
   courses:
   - course: BSc in Computer Science
     institution: Bayero University, Kano-Nigeria
-    year: 2019
+    year: 2018
   - course: NCE in Computer Science and Mathematics Education
     institution: Federal College of Education (Technical) Potiskum  
-    year: 2015
+    year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
