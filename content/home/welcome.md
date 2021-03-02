@@ -16,5 +16,4 @@ advanced:
   #css_class: "custom"
 ---
 
-HausaNLP is a research group for Hausa Natural Language Processing. The group is part of [BUKNLP research group](https://buknlp.github.io/researchgroup/) and other researchers with interest in HausaNLP. If you are a student or researcher and wants to join us to advance research in Hausa natural language processing, we are happy to collaborate.
-
+HausaNLP is an open community providing open natural language processing (NLP) resources for Hausa language. HausaNLP aim to promote NLP in Hausa language by bringing NLP enthusiasts and researchers to collaborate. If you want join us, we are happy to collaborate and to advance research in Hausa natural language processing. 
