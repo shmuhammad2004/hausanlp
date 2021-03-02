@@ -16,4 +16,4 @@ advanced:
   #css_class: "custom"
 ---
 
-HausaNLP is an open community providing open natural language processing (NLP) resources for Hausa language. HausaNLP aim to promote NLP in Hausa language by bringing NLP enthusiasts and researchers to collaborate. If you want join us, we are happy to collaborate and to advance research in Hausa natural language processing. 
+HausaNLP is an open community providing open natural language processing (NLP) resources for Hausa language. We aim to promote NLP in Hausa language by bringing NLP enthusiasts and researchers to the commuity to advance research in Hausa natural language processing. If you are interested in HausaNLP, join us.
